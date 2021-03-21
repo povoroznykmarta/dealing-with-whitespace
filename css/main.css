@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: ;
+  line-height: 1.3;
+}
+
+article {
+  padding: 0 1em;
+}
+
+article header {
+  padding: 0 1em;
+  font-family: "Crimson Text", regular;
+  font-size: 1.5rem;
+}
+
+article h1 {
+  font-family: "Crimson Text", regular;
+  font-size: 1.5rem;
+  color: #222;
+  font-weight: bold;
+}
+
+article header p {
+  font-family: "Crimson Text", italic;
+  font-size: 1.125rem;
+  color: #555;
+  font-style: italic;
+}
+
+article p {
+  font-family: "Crimson Text", regular;
+  font-size: 1.125rem;
+  color: #222;
+}
+
+blockquote {
+  font-family: "Crimson Text", italic;
+  font-size: 1.5rem;
+  color: #999;
+}
+
+.quote {
+  font-family: "Crimson Text", italic;
+  font-size: 1.5rem;
+  color: #555;
+}
+
+article ol {
+  font-family: "Crimson Text", regular;
+  font-size: 1.125rem;
+  color: #222;
+}
+
+article ol li {
+  font-family: "Crimson Text", regular;
+  font-size: 1.125rem;
+  color: #222;
+}
