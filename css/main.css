@@ -13,54 +13,71 @@ body {
 
 article {
   padding: 0 1em;
+  margin: 0;
+  letter-spacing: inherit;
 }
 
 article header {
-  padding: 0 1em;
   font-family: "Crimson Text", regular;
-  font-size: 1.5rem;
+  font-size: 3rem;
+  color: #555;
 }
 
 article h1 {
   font-family: "Crimson Text", regular;
   font-size: 1.5rem;
   color: #222;
-  font-weight: bold;
+  font-weight: normal;
+  padding-bottom: 0;
 }
 
 article header p {
   font-family: "Crimson Text", italic;
-  font-size: 1.125rem;
+  font-size: .9rem;
   color: #555;
   font-style: italic;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 1em;
+  margin: auto;
 }
 
 article p {
   font-family: "Crimson Text", regular;
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #222;
+  padding-top: 0;
 }
 
 blockquote {
   font-family: "Crimson Text", italic;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #999;
+  padding: .25em;
+  margin: auto;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 0;
 }
 
 .quote {
   font-family: "Crimson Text", italic;
   font-size: 1.5rem;
   color: #999;
+  margin: auto;
+  padding-left: 0;
 }
 
 article ol {
   font-family: "Crimson Text", regular;
   font-size: 1.125rem;
   color: #222;
+  margin: auto;
+  padding-left: .75em;
 }
 
 article ol li {
   font-family: "Crimson Text", regular;
-  font-size: 1.125rem;
   color: #222;
+  font-size: 1rem;
 }
